@@ -1,22 +1,22 @@
 # Release name
-PRODUCT_RELEASE_NAME := NOTE_S
+PRODUCT_RELEASE_NAME := z5
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/CUBOT/NOTE_S/lineage_NOTE_S.mk)
+$(call inherit-product, device/leagoo/z5/lineage_z5.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := NOTE_S
-PRODUCT_NAME := lineage_NOTE_S
-PRODUCT_BRAND := CUBOT
-PRODUCT_MODEL := CUBOT NOTE S
-PRODUCT_MANUFACTURER := CUBOT
+PRODUCT_DEVICE := z5
+PRODUCT_NAME := lineage_z5
+PRODUCT_BRAND := Leagoo
+PRODUCT_MODEL := Leagoo Z5
+PRODUCT_MANUFACTURER := Leagoo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=CUBOT/CUBOT_NOTE_S/CUBOT_NOTE_S:6.0/MRA58K/1499754357:user/release-keys \
-    PRIVATE_BUILD_DESC="full_rlk6580_we_c_m-user 6.0 MRA58K 1499754357 release-keys"
+    BUILD_FINGERPRINT=Leagoo/aosp_z5/z5:7.1.2/NJH47F/pedro_02051933:userdebug/release-keys \
+    PRIVATE_BUILD_DESC="aosp_z5-userdebug 7.1.2 NJH47F eng.pedro_.20180205.193358 release-keys"
 
 # SuperUser
 WITH_SU := false

@@ -1,16 +1,26 @@
-Cubot Note S 
+Leagoo Z5
 ===========
 Device Tree for LineageOS 14.1
+
+![Leagoo Z5](https://image4.geekbuying.com/ggo_pic/2016-05-25/2016052509403149tvgs5.jpg "Leagoo Z5")
 ------------------
 
-| Device | NOTE S |
-| ------ | ------ |
-| Chipset | MT6580 |
-| Kernel |  Marshmallow 6.0 (3.18.19) |
-| Display | 5,5" 1280x720 |
-| Battery | 4150MAh |
-| Storage |2GB RAM, 16GB storage |
-| Camera | 8MP rear / 5MP front |
+|       Basic       |    Spec Sheet        |
+|------------------:|:---------------------|
+|      Chipset      | MT6580M              |
+|  Kernel Version   | 3.18.19+             |
+|      CPU Type     | ARM Cortex A7        |
+|      CPU Freq     | 1.3GHz Quad-Core     |
+|        GPU        | Mali-400MP2 416MHz   |
+|       Memory      | 1GB RAM              |
+|  Android Version  | 6.0                  |
+|       Storage     | 8GB                  |
+|       Battery     | 2300 mAh Li-Ion      |
+|       Display     | 5" 854 x 480 px      |
+|     Rear Camera   | 5MPx, Dual LED Flash |
+|   Frontal Camera  | 2MPx                 |
+| Dimensions (H/L/W)| 143.8 x 71.8 x 9.8 mm|
+|       Weight:     | 147 g                |
 
 Bug	tracker
 ---------------
@@ -27,14 +37,11 @@ Bug	tracker
 - [ ] some Media Codecs does not work on Nougat 
 - [ ] some app glitches are present (app crashes has been fixed, glitches are left)
 
-Result
----------------
-You can see the result on needrom: [LineageOS14.1 on needrom.com](https://www.needrom.com/download/n-lineageos-14-1)
-
 Credits
 ---------------
 * Rock12 ([Github](https://github.com/rock12))
 * pedropereira22 ([Github](https://github.com/pedropereira22))
 * ibrahim1973 ([Github](https://github.com/ibrahim1973))
 * svoboda18 ([Github](https://github.com/svoboda18))
+* seluce ([Github](https://github.com/seluce))
 * Andrey Litvin (4PDA)
